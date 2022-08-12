@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/assets/imgs/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iconify/2.0.0/iconify.min.js" integrity="sha512-lYMiwcB608+RcqJmP93CMe7b4i9G9QK1RbixsNu4PzMRJMsqr/bUrkXUuFzCNsRUo3IXNUr5hz98lINURv5CNA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>Huawei P20 Pro</title>
+</head>
+<body>
+    <div class="calc-wrap">
+        <div class="dark-mode-btn">
+            <span class="iconify" data-icon="gg:dark-mode" data-height="26"></span>
+        </div>
+        <div class="calc">
+            <div class="disp disp-lock" id="disp">
+                <div class="notch">
+                    <div class="speaker">
+                    </div>
+                    <div class="camera">
+                        <div class="lens">
+                            <div class="dot"></div>
+                        </div>
+                    </div>
+                </div>
+                <input type="text" class="query" id="query">
+                <div class="result" id="result"></div>
+            </div>
+            <div class="keyboard">
+                <div class="keys">
+                    <div class="first">
+                        <div class="key one">𝗆𝖼</div>
+                        <div class="key two" id="clear">c</div>
+                        <div class="key three" id="7">7</div>
+                        <div class="key four" id="4">4</div>
+                        <div class="key five" id="1">1</div>
+                        <div class="key six" id="percentage">%</div>
+                    </div>
+                    <div class="second">
+                        <div class="key one">𝗆+</div>
+                        <div class="key two" id="divide">÷</div>
+                        <div class="key three" id="8">8</div>
+                        <div class="key four" id="5">5</div>
+                        <div class="key five" id="2">2</div>
+                        <div class="key six" id="0">0</div>
+                    </div>
+                    <div class="third">
+                        <div class="key one">𝗆-</div>
+                        <div class="key two" id="multiply">×</div>
+                        <div class="key three" id="9">9</div>
+                        <div class="key four" id="6">6</div>
+                        <div class="key five" id="3">3</div>
+                        <div class="key six" id="dot">.</div>
+                    </div>
+                    <div class="fourth">
+                        <div class="key one">𝗆𝗋</div>
+                        <div class="key two" id="backspace"><span class="iconify" data-icon="la:backspace" style="color: #007dfe;"></span></div>
+                        <div class="key three" id="minus" style="background-color: rgba(240, 248, 255, 0.920)">−</div>
+                        <div class="key four" id="plus" style="background-color: rgba(240, 248, 255, 0.920)">+</div>
+                        <div class="key five" id="equal">=</div>
+                    </div>
+                </div>
+            </div>
+            <div class="home-btn" id="hm-btn">
+            </div>
+        </div>
+        <div class="lock-sc" id="lock-sc">
+            <div class="footer" id="footer">
+                <span class="step-count">
+                    <i><span class="iconify" data-icon="emojione-monotone:running-shoe"></span></i>
+                    8936
+                </span>
+                <span class="time" id="time"></span>
+                <span class="date">Thu, Aug 11</span>
+            </div>
+        </div>
+    </div>
+<script src="/assets/js/app.js"></script>
+</body>
+</html>

@@ -110,7 +110,7 @@ body{
     flex-direction: row;
     position: absolute;
     background-color: rgb(0, 0, 0);
-    background-image: url(/assets/imgs/lock-sc.png);
+    background-image: url(./lock-sc.png);
     background-size: cover;
     /* border-radius: 20px; */
     translate: 0px -4px;

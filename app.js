@@ -4,7 +4,7 @@ $(document).ready(function(){
     $('#hm-btn').click(function(){
         $('#lock-sc').toggle();
         $('#disp').toggleClass('disp-lock');
-        new Audio('assets/audio/cs-lock-sound.mp3').play();
+        new Audio('./cs-lock-sound.mp3').play();
     });
 
     $('.key').click(function(){

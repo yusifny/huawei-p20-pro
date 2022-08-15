@@ -3,6 +3,7 @@ $(document).ready(function(){
     $('#date').text("Thu, Aug 11");
     $('#hm-btn').click(function(){
         $('#lock-sc').toggle();
+        $('#dark-mode-btn').toggle();
         $('#disp').toggleClass('disp-lock');
         new Audio('./cs-lock-sound.mp3').play();
     });
